@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício 6</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
 </head>
 <body>
     <h1>Exercício 6-Verifica se um número é positivo, negativo ou zero</h1>
@@ -24,4 +25,5 @@
         }
     ?>
 </body>
+<script src="bootstrap.bundle.min.js"></script>
 </html>

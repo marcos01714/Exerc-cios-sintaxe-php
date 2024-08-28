@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício 12</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
 </head>
 <body>
     <h1>Exercício 12-Tabuada com for</h1>
@@ -18,4 +19,5 @@
         }
     ?>
 </body>
+<script src="bootstrap.bundle.min.js"></script>
 </html>

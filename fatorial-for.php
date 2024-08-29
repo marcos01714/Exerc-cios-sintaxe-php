@@ -10,7 +10,13 @@
 <body>
     <h1>Exercício 13-Fatorial com for</h1>
     <?php
-        
+        $fatorial = 5;
+        $resultado = 1;
+        $controle = 0;
+        for ($controle = 2; $controle <= $fatorial; $controle ++) {
+            $resultado *= $controle;
+        }
+        echo "<h2>O fatorial do número $fatorial é: $resultado.</h2>"
     ?>
 </body>
 <script src="bootstrap.bundle.min.js"></script>

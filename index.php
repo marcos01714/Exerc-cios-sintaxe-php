@@ -63,7 +63,7 @@
         </nav>
 
 <h1>Programação Web II</h1>
-<h4>Exercícios para treinamento de sintaxe PHP e lógica de programação referentes a aula de programação web 2, iniciados em 23/08/2024.</h3>
+<h4>Este site contém exercícios para treinamento de sintaxe PHP e lógica de programação referentes a aula de programação web 2, do professor Fernando Graciano, iniciados em 23/08/2024.</h3>
 
 </body>
 <script src="bootstrap.bundle.min.js"></script>

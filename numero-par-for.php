@@ -65,12 +65,11 @@
     <h1>Exercício 14-Número par com for</h1>
     <?php
         $numero = 0;
-        for ($numero = 1; $numero = 50; $numero ++) {
-            if ($numero % 2 = 0) {
-                echo "<h4>O número $numero é par.</h4>"
-            }
-            else {
-                echo "<h4>O número $numero é ímpar.</h4>"
+        for ($numero = 1; $numero <= 50; $numero ++) {
+            if ($numero % 2 == 0) {
+                echo "<h4>O número $numero é par.</h4>";
+            }else {
+                echo "<h4>O número $numero é ímpar.</h4>";
             }
         }
     ?>

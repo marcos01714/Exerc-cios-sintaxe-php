@@ -62,13 +62,15 @@
             </div>
             </div>
         </nav>
-    <h1>Exercício 2-Calculadora de idade</h1>
-    <?php
-        $anoNascimento = 1997; //Ano de nascimento da pessoa
-        $anoAtual = 2024; //Ano atual
-        $idade = $anoAtual - $anoNascimento;
-        echo "<h4>Idade da pessoa: $idade</h4>";
-    ?>
+    <div class="container">
+        <h1>Exercício 2-Calculadora de idade</h1>
+        <?php
+            $anoNascimento = 1997; //Ano de nascimento da pessoa
+            $anoAtual = 2024; //Ano atual
+            $idade = $anoAtual - $anoNascimento;
+            echo "<h4>Idade da pessoa: $idade</h4>";
+        ?>
+    </div>
 </body>
 <script src="bootstrap.bundle.min.js"></script>
 </html>

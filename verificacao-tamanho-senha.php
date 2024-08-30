@@ -62,17 +62,19 @@
             </div>
             </div>
         </nav>
-    <h1>Exercício 9-Verifica o tamanho da senha</h1>
-    <?php 
-        $senha = "marco";
-        $quantidadeCaracteres = strlen($senha);
-        if ($quantidadeCaracteres < 6) {
-            echo "<h4>Comprimento mínimo de 6 caracteres não foi atingido, digite outra senha.</h4>";
-        }
-        else {
-            echo "<h4>Comprimento mínimo de 6 caracteres atingido, senha segura.</h4>";
-        }
-    ?>
+    <div class="container">
+        <h1>Exercício 9-Verifica o tamanho da senha</h1>
+        <?php 
+            $senha = "marco";
+            $quantidadeCaracteres = strlen($senha);
+            if ($quantidadeCaracteres < 6) {
+                echo "<h4>Comprimento mínimo de 6 caracteres não foi atingido, digite outra senha.</h4>";
+            }
+            else {
+                echo "<h4>Comprimento mínimo de 6 caracteres atingido, senha segura.</h4>";
+            }
+        ?>
+    </div>
 </body>
 <script src="bootstrap.bundle.min.js"></script>
 </html>

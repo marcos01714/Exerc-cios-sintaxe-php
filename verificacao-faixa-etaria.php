@@ -62,22 +62,24 @@
             </div>
             </div>
         </nav>
-   <h1>Exercício 5-Verficação de faixa etária</h1>
-   <?php
-        $idade = 73;
-        if ($idade <= 12) {
-            echo "<h4>Idade: $idade. Faixa etária: Criança.</h4>";
-        }
-        else if ($idade <= 17) {
-            echo "<h4>Idade: $idade. Faixa etária: Adolescente.</h4>";
-        }
-        else if ($idade <= 64) {
-            echo "<h4>Idade: $idade. Faixa etária: Adulto(a).</h4>";
-        }
-        else {
-            echo "<h4>Idade: $idade. Faixa etária: Idoso(a)</h4>";
-        }
-   ?>
+    <div class="container">
+        <h1>Exercício 5-Verficação de faixa etária</h1>
+        <?php
+                $idade = 73;
+                if ($idade <= 12) {
+                    echo "<h4>Idade: $idade. Faixa etária: Criança.</h4>";
+                }
+                else if ($idade <= 17) {
+                    echo "<h4>Idade: $idade. Faixa etária: Adolescente.</h4>";
+                }
+                else if ($idade <= 64) {
+                    echo "<h4>Idade: $idade. Faixa etária: Adulto(a).</h4>";
+                }
+                else {
+                    echo "<h4>Idade: $idade. Faixa etária: Idoso(a)</h4>";
+                }
+        ?>
+    </div>
 </body>
 <script src="bootstrap.bundle.min.js"></script>
 </html>

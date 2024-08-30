@@ -61,10 +61,10 @@
             </div>
             </div>
         </nav>
-
-<h1>Programação Web II</h1>
-<h4>Este site contém exercícios para treinamento de sintaxe PHP e lógica de programação referentes a aula de programação web 2, do professor Fernando Graciano, iniciados em 23/08/2024.</h3>
-
+<div class="container">
+    <h1>Programação Web II</h1>
+    <h4>Este site contém exercícios para treinamento de sintaxe PHP e lógica de programação referentes a aula de programação web 2, do professor Fernando Graciano, iniciados em 23/08/2024.</h3>
+</div>
 </body>
 <script src="bootstrap.bundle.min.js"></script>
 </html>

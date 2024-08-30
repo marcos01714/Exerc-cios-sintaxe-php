@@ -62,16 +62,18 @@
             </div>
             </div>
         </nav>
-    <h1>Exercício 4-Verificação de paridade</h1>
-   <?php
-        $numero = 36;
-        if ($numero % 2 == 0) {
-            echo "<h4>O número $numero é par.</h4>";
-        }
-        else {
-            echo "<h4>O número $numero é ímpar.</h4>";
-        }
-   ?>
+    <div class="container">
+        <h1>Exercício 4-Verificação de paridade</h1>
+        <?php
+            $numero = 36;
+            if ($numero % 2 == 0) {
+                echo "<h4>O número $numero é par.</h4>";
+            }
+            else {
+                echo "<h4>O número $numero é ímpar.</h4>";
+            }
+        ?>
+    </div>
 </body>
 <script src="bootstrap.bundle.min.js"></script>
 </html>

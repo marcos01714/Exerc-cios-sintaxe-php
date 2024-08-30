@@ -62,6 +62,7 @@
             </div>
             </div>
         </nav>
+<div class="container">
     <h1>Exercício 10-Contador com while</h1>
     <?php
         $contador = 1;
@@ -70,6 +71,7 @@
             $contador ++;
         }
     ?>
+</div>
 </body>
 <script src="bootstrap.bundle.min.js"></script>
 </html>

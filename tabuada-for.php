@@ -62,16 +62,18 @@
             </div>
             </div>
         </nav>
-    <h1>Exercício 12-Tabuada com for</h1>
-    <?php
-        $tabuada = 5;
-        $multiplicador = 1;
-        $resultado = 0;
-        for ($multiplicador = 1; $multiplicador <= 10; $multiplicador ++) {
-            $resultado = $tabuada * $multiplicador;
-            echo "<h4>$tabuada x $multiplicador = $resultado</h4>";
-        }
-    ?>
+    <div class="container">
+        <h1>Exercício 12-Tabuada com for</h1>
+        <?php
+            $tabuada = 5;
+            $multiplicador = 1;
+            $resultado = 0;
+            for ($multiplicador = 1; $multiplicador <= 10; $multiplicador ++) {
+                $resultado = $tabuada * $multiplicador;
+                echo "<h4>$tabuada x $multiplicador = $resultado</h4>";
+            }
+        ?>
+    </div>
 </body>
 <script src="bootstrap.bundle.min.js"></script>
 </html>

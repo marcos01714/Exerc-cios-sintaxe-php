@@ -62,16 +62,18 @@
             </div>
             </div>
         </nav>
-    <h1>Exercício 8-Verifica se um ano é bissexto</h1>
-    <?php
-        $ano = 2024;
-        if (($ano % 4 == 0 && $ano % 100 != 0) || $ano % 400 == 0) {
-            echo "<h4>O ano de $ano é bissexto.</h4>";
-        }
-        else {
-            echo "<h4>O ano de $ano não é bissexto.</h4>";
-        }
-    ?>
+    <div class="container">
+        <h1>Exercício 8-Verifica se um ano é bissexto</h1>
+        <?php
+            $ano = 2024;
+            if (($ano % 4 == 0 && $ano % 100 != 0) || $ano % 400 == 0) {
+                echo "<h4>O ano de $ano é bissexto.</h4>";
+            }
+            else {
+                echo "<h4>O ano de $ano não é bissexto.</h4>";
+            }
+        ?>
+    </div>
 </body>
 <script src="bootstrap.bundle.min.js"></script>
 </html>

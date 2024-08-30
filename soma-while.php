@@ -62,16 +62,18 @@
             </div>
             </div>
         </nav>
-    <h1>Exercício 11-Soma com while</h1>
-    <?php
-        $soma = 0;
-        $numero = 1;
-        while ($numero <= 100) {
-            $soma += $numero;
-            $numero ++;
-        }
-        echo "<h4>A soma dos números de 1 a 100 é igual a: $soma.</h4>";
-    ?>
+    <div class="container">
+        <h1>Exercício 11-Soma com while</h1>
+        <?php
+            $soma = 0;
+            $numero = 1;
+            while ($numero <= 100) {
+                $soma += $numero;
+                $numero ++;
+            }
+            echo "<h4>A soma dos números de 1 a 100 é igual a: $soma.</h4>";
+        ?>
+    </div>
 </body>
 <script src="bootstrap.bundle.min.js"></script>
 </html>

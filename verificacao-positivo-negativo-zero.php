@@ -62,22 +62,24 @@
             </div>
             </div>
         </nav>
-    <h1>Exercício 6-Verifica se um número é positivo, negativo ou zero</h1>
-    <?php
-        $numero = 96;
-        if ($numero == 0) {
-            echo "<h4>Número digitado: $numero. Classificação: Zero.</h4>";
-        }
-        else if ($numero == 95) {
-            echo "<h4>Número digitado: $numero. Classificação: Positivo. KATCHAU ;)</h4>";
-        }
-        else if ($numero > 0){
-            echo "<h4>Número digitado: $numero. Classificação: Positivo.</h4>";
-        }
-        else {
-            echo "<h4>Número digitado: $numero. Classificação: Negativo.</h4>";
-        }
-    ?>
+    <div class="container">
+        <h1>Exercício 6-Verifica se um número é positivo, negativo ou zero</h1>
+        <?php
+            $numero = 96;
+            if ($numero == 0) {
+                echo "<h4>Número digitado: $numero. Classificação: Zero.</h4>";
+            }
+            else if ($numero == 95) {
+                echo "<h4>Número digitado: $numero. Classificação: Positivo. KATCHAU ;)</h4>";
+            }
+            else if ($numero > 0){
+                echo "<h4>Número digitado: $numero. Classificação: Positivo.</h4>";
+            }
+            else {
+                echo "<h4>Número digitado: $numero. Classificação: Negativo.</h4>";
+            }
+        ?>
+    </div>
 </body>
 <script src="bootstrap.bundle.min.js"></script>
 </html>

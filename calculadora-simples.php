@@ -62,36 +62,38 @@
             </div>
             </div>
         </nav>
-    <h1>Exercício 1-Calculadora simples</h1>
-    <?php
-        $numero1 = 4; //Declaração dp primeiro número.
-        $numero2 = 6; //Declaração do segundo número.
-        $operacao = 'divisão'; //Declaração de qual operação matemática será utilizada.
+    <div class="container">
+        <h1>Exercício 1-Calculadora simples</h1>
+        <?php
+            $numero1 = 4; //Declaração dp primeiro número.
+            $numero2 = 6; //Declaração do segundo número.
+            $operacao = 'divisão'; //Declaração de qual operação matemática será utilizada.
 
-        if ($operacao == 'soma') { //Condição para caso de soma.
-            $resultado = $numero1 + $numero2;
-            echo "<h4>Operação escolhida: Soma.</h4>";
-            echo "<h4>O resultado da soma é: $resultado</h4>"; //Os dois echo's mostram a operação escolhida e o resultado da operação, isso vale para as outras condições.
-        }
+            if ($operacao == 'soma') { //Condição para caso de soma.
+                $resultado = $numero1 + $numero2;
+                echo "<h4>Operação escolhida: Soma.</h4>";
+                echo "<h4>O resultado da soma é: $resultado</h4>"; //Os dois echo's mostram a operação escolhida e o resultado da operação, isso vale para as outras condições.
+            }
 
-        else if ($operacao == 'subtração') { //Condição para caso de subtração.
-            $resultado = $numero1 - $numero2;
-            echo "<h4>Operação escolhida: Subtração.</h4>";
-            echo "<h4>O resultado da subtração é: $resultado</h4>";
-        }
+            else if ($operacao == 'subtração') { //Condição para caso de subtração.
+                $resultado = $numero1 - $numero2;
+                echo "<h4>Operação escolhida: Subtração.</h4>";
+                echo "<h4>O resultado da subtração é: $resultado</h4>";
+            }
 
-        else if ($operacao == 'multiplicação') { //Condição para caso de multiplicação.
-            $resultado = $numero1 * $numero2;
-            echo "<h4>Operação escolhida: Multiplicação.</h4>";
-            echo "<h4>O resultado da multiplicação é: $resultado</h4>";
-        }
+            else if ($operacao == 'multiplicação') { //Condição para caso de multiplicação.
+                $resultado = $numero1 * $numero2;
+                echo "<h4>Operação escolhida: Multiplicação.</h4>";
+                echo "<h4>O resultado da multiplicação é: $resultado</h4>";
+            }
 
-        else { //Condição para caso de divisão.
-            $resultado = $numero1 / $numero2;
-            echo "<h4>Operação escolhida: Divisão.</h4>";
-            echo "<h4>O resultado da divisão é: $resultado</h4>";
-        }
-    ?>
+            else { //Condição para caso de divisão.
+                $resultado = $numero1 / $numero2;
+                echo "<h4>Operação escolhida: Divisão.</h4>";
+                echo "<h4>O resultado da divisão é: $resultado</h4>";
+            }
+        ?>
+</div>
 </body>
 <script src="bootstrap.bundle.min.js"></script>
 </html>

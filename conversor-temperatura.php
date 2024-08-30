@@ -62,13 +62,15 @@
             </div>
             </div>
         </nav>
-    <h1>Exercício 3-Conversor de temperatura</h1>
-    <?php
-        $temperaturaCelsius = 33;
-        $temperaturaFahrenheit = ($temperaturaCelsius * 9/5) + 32;
-        echo "<h4>A temperatura em graus Celsius é de: $temperaturaFahrenheit °F</h4>";
-        echo "<h4>A temperatura em graus Fahrenheit é de: $temperaturaFahrenheit °F</h4>";
-    ?>
+    <div class="container">
+        <h1>Exercício 3-Conversor de temperatura</h1>
+        <?php
+            $temperaturaCelsius = 33;
+            $temperaturaFahrenheit = ($temperaturaCelsius * 9/5) + 32;
+            echo "<h4>A temperatura em graus Celsius é de: $temperaturaFahrenheit °F</h4>";
+            echo "<h4>A temperatura em graus Fahrenheit é de: $temperaturaFahrenheit °F</h4>";
+        ?>
+    </div>
 </body>
 <script src="bootstrap.bundle.min.js"></script>
 </html>

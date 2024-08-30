@@ -62,28 +62,30 @@
             </div>
             </div>
         </nav>
-    <h1>Exercício 7-Classificação de nota escolar</h1>
-    <?php
-        $nota = 99;
-        if ($nota <= 100) {
-            echo "<h4>Nota: $nota. Classificação: A.";
-        }
-        else if ($nota < 90) {
-            echo "<h4>Nota: $nota. Classificação: B.";
-        }
-        else if ($nota < 80) {
-            echo "<h4>Nota: $nota. Classificação: C.";
-        }
-        else if ($nota < 70) {
-            echo "<h4>Nota: $nota. Classificação: D.";
-        }
-        else if ($nota < 60) {
-            echo "<h4>Nota: $nota. Classificação: F.";
-        }
-        else if ($nota < 0 || $nota > 100) {
-            echo "<h4>Insira apenas valores entre 0 e 100!";
-        }
-    ?>
+    <div class="container">
+        <h1>Exercício 7-Classificação de nota escolar</h1>
+        <?php
+            $nota = 99;
+            if ($nota <= 100) {
+                echo "<h4>Nota: $nota. Classificação: A.";
+            }
+            else if ($nota < 90) {
+                echo "<h4>Nota: $nota. Classificação: B.";
+            }
+            else if ($nota < 80) {
+                echo "<h4>Nota: $nota. Classificação: C.";
+            }
+            else if ($nota < 70) {
+                echo "<h4>Nota: $nota. Classificação: D.";
+            }
+            else if ($nota < 60) {
+                echo "<h4>Nota: $nota. Classificação: F.";
+            }
+            else if ($nota < 0 || $nota > 100) {
+                echo "<h4>Insira apenas valores entre 0 e 100!";
+            }
+        ?>
+</div>
 </body>
 <script src="bootstrap.bundle.min.js"></script>
 </html>

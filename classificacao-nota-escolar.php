@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en" data-bs-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,26 +8,80 @@
     <link rel="stylesheet" href="bootstrap.min.css">
 </head>
 <body>
+        <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+            <div class="container-fluid">
+            <a class="navbar-brand">Exercício 7</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.php">Página Inicial</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="calculadora-simples.php">Exercício 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="calculadora-idade.php">Exercício 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="conversor-temperatura.php">Exercício 3</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="verificacao-paridade.php">Exercício 4</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="verificacao-faixa-etaria.php">Exercício 5</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="verificacao-positivo-negativo-zero.php">Exercício 6</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="classificacao-nota-escolar.php">Exercício 7</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="verificacao-ano-bissexto.php">Exercício 8</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="verificacao-tamanho-senha.php">Exercício 9</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Mais exercícios
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="contador-while.php">Exercício 10</a></li>
+                        <li><a class="dropdown-item" href="soma-while.php">Exercício 11</a></li>
+                        <li><a class="dropdown-item" href="tabuada-for.php">Exercício 12</a></li>
+                        <li><a class="dropdown-item" href="fatorial-for.php">Exercício 13</a></li>
+                        <li><a class="dropdown-item" href="numero-par-for.php">Exercício 14</a></li>
+                    </ul>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
     <h1>Exercício 7-Classificação de nota escolar</h1>
     <?php
         $nota = 99;
         if ($nota <= 100) {
-            echo "<h2>Nota: $nota. Classificação: A.";
+            echo "<h4>Nota: $nota. Classificação: A.";
         }
         else if ($nota < 90) {
-            echo "<h2>Nota: $nota. Classificação: B.";
+            echo "<h4>Nota: $nota. Classificação: B.";
         }
         else if ($nota < 80) {
-            echo "<h2>Nota: $nota. Classificação: C.";
+            echo "<h4>Nota: $nota. Classificação: C.";
         }
         else if ($nota < 70) {
-            echo "<h2>Nota: $nota. Classificação: D.";
+            echo "<h4>Nota: $nota. Classificação: D.";
         }
         else if ($nota < 60) {
-            echo "<h2>Nota: $nota. Classificação: F.";
+            echo "<h4>Nota: $nota. Classificação: F.";
         }
         else if ($nota < 0 || $nota > 100) {
-            echo "<h2>Insira apenas valores entre 0 e 100!";
+            echo "<h4>Insira apenas valores entre 0 e 100!";
         }
     ?>
 </body>
